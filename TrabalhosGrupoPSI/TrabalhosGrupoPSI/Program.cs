@@ -19,8 +19,12 @@ namespace TrabGrupoM17C_Pert
             }
 
             int maior = vetor[0];
+            Console.WriteLine("maior {1}.", maior);
+
             int indice = 0;
-         
+
+            Console.WriteLine("indice {1}.", indice);
+
             for (int i = 0; i < vetor.Length; i++)
             {
                 if (vetor[i] > maior)
@@ -31,7 +35,9 @@ namespace TrabGrupoM17C_Pert
                 }
             }
             Console.WriteLine("Maior número:{0},Índice:{1} .", maior, indice);
+            Console.WriteLine("****************************");
             Console.ReadKey();
+
         }
     }
 }
